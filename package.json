@@ -4,8 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "budo index.js --live",
-    "open": "npm start -- --open"
+    "start": "budo index.js --live --open"
   },
   "browserify": {
     "transform": [
