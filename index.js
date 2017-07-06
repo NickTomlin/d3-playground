@@ -22,10 +22,9 @@ path {
   stroke: #aaa;
 }
 `
-
-let style = document.createElement('style')
-style.textContent = css
-document.body.appendChild(style)
+d3.select(document.body)
+  .append('style')
+  .text(css)
 
 /* == EXAMPLE: delete me */
 
